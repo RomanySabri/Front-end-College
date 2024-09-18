@@ -1,0 +1,25 @@
+:root {
+  --main-coloe: #1f4385;
+}
+
+.na nav {
+  background: var(--main-coloe);
+  height: 60px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .links {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .links a {
+  color: white;
+  text-decoration: none;
+}
+.container .logo img {
+  width: 180px;
+}

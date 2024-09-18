@@ -1,0 +1,133 @@
+.HomePage,
+.log_student,
+.log_admin,
+.schedules {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: url(../image/background25.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  align-items: center;
+  width: 70%;
+}
+.HomePage .text,
+.log_student .text,
+.log_admin .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  /* width: 60%; */
+}
+
+.HomePage .text p,
+.log_student .text p,
+.log_admin .text p {
+  color: black;
+  margin: 0 0 25px;
+  font-size: 20px;
+}
+
+.HomePage .text .buttons,
+.log_admin .text .buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.log_student .text form {
+  display: flex;
+  justify-content: space-between;
+}
+.lecschedules .all form button,
+.log_student .text form button {
+  background-color: #1f4385;
+  margin-left: 10px;
+}
+
+.HomePage .text .btn {
+  background: #1f4385;
+  border-radius: 50px;
+  color: white;
+}
+
+.HomePage .image,
+.log_student .image,
+.log_admin .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 30%;
+  overflow: hidden;
+}
+.HomePage .image img,
+.log_student .image img,
+.log_admin .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.log_admin form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.log_admin form input {
+  background-color: #98bfff96;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.log_admin form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #495057;
+}
+.log_admin form label svg {
+  color: black;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.log_admin .text .btn {
+  height: 50px;
+}
+.lecschedules .all,
+.lecschedules .all form,
+.schedules .all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedules .all .buttons {
+  display: flex;
+  flex-direction: column;
+}
+.schedules .all .buttons a {
+  background-color: #1f4385;
+  color: white;
+  width: 400px;
+  height: 70px;
+  border-radius: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
